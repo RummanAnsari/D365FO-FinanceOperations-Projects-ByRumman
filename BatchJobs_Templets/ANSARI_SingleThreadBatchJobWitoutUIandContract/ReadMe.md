@@ -57,3 +57,17 @@ class ANSARI_SingleThreadWithoutUIandContractBatchJobService extends SysOperatio
 
 
 ```
+## Schedule 
+<img width="1236" height="664" alt="image" src="https://github.com/user-attachments/assets/7df736b7-3324-4608-bae7-608849e12582" />
+
+## Scheduled 
+<img width="1236" height="664" alt="image" src="https://github.com/user-attachments/assets/d317b954-0a15-4233-826f-e1b5dbaecefe" />
+
+## See batch job page
+<img width="1236" height="664" alt="image" src="https://github.com/user-attachments/assets/8e848447-930d-4d91-9943-0054965ebbc4" />
+
+
+## Output
+<img width="1236" height="664" alt="image" src="https://github.com/user-attachments/assets/cf1a686d-470a-4f35-804d-2749a242952c" />
+
+
