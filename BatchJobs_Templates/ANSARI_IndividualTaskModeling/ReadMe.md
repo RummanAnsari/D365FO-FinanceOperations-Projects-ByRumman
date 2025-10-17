@@ -4,15 +4,16 @@
 ## Project Name: ANSARI_IndividualTaskModeling
 
 ### Project Approach:  
-**Multithreading with Individual Task Modeling using SysOperation Framework**
+**Individual Task Modeling using SysOperation Framework**
+Every time you have to add batch job for different work items through rec id.
 
-This project demonstrates how to implement a multithreaded batch job in Dynamics 365 Finance and Operations using the **SysOperation framework**. Each task is modeled as a separate service class and scheduled independently to run in parallel.
+This project demonstrates how to implement a batch job in Dynamics 365 Finance and Operations using the **SysOperation framework**. Each task is modeled as a separate service class and scheduled independently to run in parallel. 
 
 ### Project Execution Mode:  
 **Scheduled Batch** — Each task is submitted as a separate batch job.
 
 ### Utilizing Parameters:  
-**Yes** — A shared data contract class is used to pass parameters to each task.
+**Yes** — A shared data contract class is used to pass parameters to task.
 
 ### Utilizing UI Builder Class:  
 **No** — The job does not use a custom UI builder.
@@ -37,7 +38,7 @@ This project demonstrates how to implement a multithreaded batch job in Dynamics
 
 - **Batch Bundling** — No workload splitting or bundling logic.
 - **Top Picking** — No staging table or dynamic record picking.
-- **RunBaseBatch** — Entirely based on SysOperation framework.
+- **RunBaseBatch** — Entirely based on SysOperation framework. Not based on RunBaseBatch.
 
 ---
 
@@ -47,6 +48,19 @@ This project demonstrates how to implement a multithreaded batch job in Dynamics
 - Easy to extend with additional tasks.
 - Fully compatible with D365FO batch framework.
 - Supports parallel execution without complex bundling or staging.
+
+### ❌ Not Batch Bundling
+
+No workload bundling or record range splitting.
+
+###  ❌ Not Top Picking
+
+No staging table or dynamic record picking logic.
+
+### ✅ Individual Task Modeling
+
+- Each task is modeled as a separate service class.
+- Tasks are scheduled independently and executed in parallel.
 
 
 
