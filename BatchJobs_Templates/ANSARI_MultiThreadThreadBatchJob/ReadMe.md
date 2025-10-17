@@ -1,3 +1,37 @@
+
+# 🧾 About the Project
+
+## Project Name: ANSARI_MultiThreadThreadBatchJob
+
+### Project Approach:  
+**Multithreading with Batch Bundling**
+
+This project uses the **Batch Bundling** pattern to achieve parallel execution in Dynamics 365 Finance and Operations. It dynamically creates multiple batch tasks using `addRuntimeTask()`, each responsible for processing a specific range of records.
+
+### Project Execution Mode:  
+**Asynchronous** — Tasks are executed in parallel across batch threads.
+
+### Utilizing Parameters:  
+**Yes** — Each task receives parameters (e.g., record range) to define its scope.
+
+### Utilizing UI Builder Class:  
+**No** — The job does not use a custom UI builder.
+
+### Utilizing Query as Filter Parameters:  
+**No** — Filtering is handled via logic, not through query-based parameters.
+
+---
+
+## 🔄 My Bundling Approach
+
+- Splits the workload into **bundles** based on total record count and thread count.
+- Each bundle is assigned to a **separate batch task** using `addRuntimeTask()`.
+- Tasks are executed **in parallel**, leveraging multiple threads on the batch server.
+- **No staging table** is used.
+- **Not Top Picking** — Top Picking involves a staging table where each thread picks the next available record dynamically.
+- **Not Individual Task Modeling** — That approach involves creating separate classes for each task, typically used when tasks are few or have dependencies.
+
+
 # Project
 <img width="1272" height="634" alt="image" src="https://github.com/user-attachments/assets/24526cca-5706-4942-ac85-4e0f9a20b8d2" />
 
