@@ -1,4 +1,54 @@
-# Project
+
+# 🧾 About the Project
+
+## Project Name: ANSARI_IndividualTaskModeling
+
+### Project Approach:  
+**Multithreading with Individual Task Modeling using SysOperation Framework**
+
+This project demonstrates how to implement a multithreaded batch job in Dynamics 365 Finance and Operations using the **SysOperation framework**. Each task is modeled as a separate service class and scheduled independently to run in parallel.
+
+### Project Execution Mode:  
+**Scheduled Batch** — Each task is submitted as a separate batch job.
+
+### Utilizing Parameters:  
+**Yes** — A shared data contract class is used to pass parameters to each task.
+
+### Utilizing UI Builder Class:  
+**No** — The job does not use a custom UI builder.
+
+### Utilizing Query as Filter Parameters:  
+**No** — Filtering is handled via logic in the service classes.
+
+---
+
+## 🔄 Implementation Pattern
+
+- Each task is implemented as a separate class extending `SysOperationServiceBase`.
+- All service methods are decorated with `[SysEntryPointAttribute]` to enable batch execution.
+- A shared data contract class (`ANSARI_TaskContract`) is used to pass task-specific parameters.
+- Custom controller classes are created for each task, extending `SysOperationController`.
+- The controller overrides `parmClassName()` and `parmMethodName()` to specify the service and method.
+- A launcher class (`ANSARI_IndividualTaskLauncher`) is used to trigger all tasks in parallel.
+
+---
+
+## ❌ Not Using
+
+- **Batch Bundling** — No workload splitting or bundling logic.
+- **Top Picking** — No staging table or dynamic record picking.
+- **RunBaseBatch** — Entirely based on SysOperation framework.
+
+---
+
+## ✅ Benefits
+
+- Clean separation of logic per task.
+- Easy to extend with additional tasks.
+- Fully compatible with D365FO batch framework.
+- Supports parallel execution without complex bundling or staging.
+
+
 
 # Project Structure
 <img width="1272" height="634" alt="image" src="https://github.com/user-attachments/assets/d1bcf8b3-ce9e-48b4-a882-c6a04bf13bfe" />
