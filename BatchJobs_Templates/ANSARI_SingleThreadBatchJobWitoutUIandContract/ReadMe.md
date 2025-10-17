@@ -1,3 +1,47 @@
+
+# 🧾 About the Project
+
+## Project Name: ANSARI_SingleThreadBatchJobWitoutUIandContract
+
+### Project Approach:  
+**Single-threaded Batch Execution**
+
+This project uses a basic batch job structure in Dynamics 365 Finance and Operations. It executes logic in a single thread without parallelism or bundling.
+
+### Project Execution Mode:  
+**Synchronous or Asynchronous** — Only one task is executed.
+
+### Utilizing Parameters:  
+**No** — The job does not use a data contract class for parameter input.
+
+### Utilizing UI Builder Class:  
+**No** — There is no custom UI builder for user input.
+
+### Utilizing Query as Filter Parameters:  
+**No** — The job does not use a query object to filter records.
+
+---
+
+## 🔍 Execution Characteristics
+
+- The job runs as a **single batch task**.
+- There is **no multithreading** or parallel task creation.
+- All logic is executed within one batch thread.
+- Ideal for **simple jobs** or **low-volume processing**.
+- No use of `addRuntimeTask()` or `addTask()` — only one task is created and executed.
+
+---
+
+### ❌ Not Batch Bundling
+- No workload splitting or bundling logic.
+
+### ❌ Not Top Picking
+- No staging table or dynamic record picking.
+
+### ❌ Not Individual Task Modeling
+- Only one class is used, and no multiple task classes are modeled.
+
+
 # Code
 
 ## Project
