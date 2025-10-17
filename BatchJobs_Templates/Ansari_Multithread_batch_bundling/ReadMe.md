@@ -1,3 +1,12 @@
+# About the project
+
+Project Approach: Multithreading with Batch Bundling
+Project Execution Mode: Asynchronous
+Utilizing Parameters: Yes
+Utilizing UI Builder Class: No
+Utilizing Query as filter Parameters: No
+
+
 # Project Structure
 <img width="1272" height="634" alt="image" src="https://github.com/user-attachments/assets/c816228e-44db-4e42-a345-81dbe4a19ed2" />
 
