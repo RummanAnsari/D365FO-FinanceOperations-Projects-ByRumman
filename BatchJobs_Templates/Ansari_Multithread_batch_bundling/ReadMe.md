@@ -1,16 +1,16 @@
 # About the project
 
-Project Approach: Multithreading with Batch Bundling
-
-Project Execution Mode: Asynchronous
-
-Utilizing Parameters: Yes
-
-Utilizing UI Builder Class: No
+> Project Approach: Multithreading with Batch Bundling
+>
+> Project Execution Mode: Asynchronous
+>
+> Utilizing Parameters: Yes
+>
+> Utilizing UI Builder Class: No
 
 Utilizing Query as filter Parameters: No
 
-> ### Your bundling approach:
+> ### My bundling approach:
 > 
 > - Splits the workload into bundles.
 > - Each bundle is assigned to a separate batch task.
