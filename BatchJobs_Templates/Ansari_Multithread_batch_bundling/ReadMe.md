@@ -1,14 +1,14 @@
 # About the project
 
-> Project Approach: Multithreading with Batch Bundling
+> - Project Approach: Multithreading with Batch Bundling
 >
-> Project Execution Mode: Asynchronous
+> - Project Execution Mode: Asynchronous
 >
-> Utilizing Parameters: Yes
+> - Utilizing Parameters: Yes
 >
-> Utilizing UI Builder Class: No
+> - Utilizing UI Builder Class: No
 >
-> Utilizing Query as filter Parameters: No
+> - Utilizing Query as filter Parameters: No
 
 > ### My bundling approach:
 > 
