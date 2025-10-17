@@ -10,6 +10,11 @@ Utilizing UI Builder Class: No
 
 Utilizing Query as filter Parameters: No
 
+> ### Your bundling approach:
+> 
+> - Splits the workload into bundles.
+> - Each bundle is assigned to a separate batch task.
+> - These tasks are executed in parallel, leveraging multiple threads on the batch server.
 
 # Project Structure
 <img width="1272" height="634" alt="image" src="https://github.com/user-attachments/assets/c816228e-44db-4e42-a345-81dbe4a19ed2" />
