@@ -109,11 +109,11 @@ class ANSARI_CustTransBundlingService
 
 }
 ```
-# Controller Class (Child)
+# Controller Class (Child Task)
 ```
 Controller created using the main controller class with data
 ```
-# Contract Class (Child)
+# Contract Class (Child Task)
 ```
 [DataContractAttribute]
 public class ANSARI_BundleDataContract
@@ -129,7 +129,7 @@ public class ANSARI_BundleDataContract
 
 }
 ```
-# Service (Child)
+# Service (Child Task)
 ```
 public class ANSARI_CustTransBundlingTaskService
 {
@@ -163,6 +163,7 @@ public class ANSARI_CustTransBundlingTaskService
 ```
 
 # Results
+You can see result from below sections
 
 ## Execution
 <img width="1272" height="634" alt="image" src="https://github.com/user-attachments/assets/0a61df09-6827-4809-9480-63fb3e3dcfc5" />
