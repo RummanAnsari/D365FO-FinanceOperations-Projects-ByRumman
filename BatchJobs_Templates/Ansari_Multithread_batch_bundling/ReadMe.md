@@ -7,8 +7,8 @@
 > Utilizing Parameters: Yes
 >
 > Utilizing UI Builder Class: No
-
-Utilizing Query as filter Parameters: No
+>
+> Utilizing Query as filter Parameters: No
 
 > ### My bundling approach:
 > 
