@@ -158,5 +158,23 @@ Order SO003 belongs to Rumman Ansari from Mumbai
 
 ---
 
- 
+## 🧾  Insert Data into CustomerTable
+```
+INSERT INTO AnsariCustomerTable (CustomerId, CustomerName, City)
+VALUES 
+('C001', 'Rumman Ansari', 'Mumbai'),
+('C002', 'Osman Ali Sk', 'Delhi'),
+('C003', 'Inzamamul Hoque', 'Pune');
+
+```
+
+ # 🧾  Insert Data into AnsariSalesOrderTable
+```
+INSERT INTO SalesOrderTable (OrderId, CustomerId, OrderDate, TotalAmount)
+VALUES 
+('SO001', 'C001', '2025-10-20', 5000),
+('SO002', 'C002', '2025-10-21', 3000),
+('SO003', 'C001', '2025-10-22', 2500);
+
+
 
