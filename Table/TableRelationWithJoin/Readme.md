@@ -1,4 +1,4 @@
-Perfect 👌 — let’s create a **custom example** in **D365 F&O–style (TTD format)** using your prefix `Ansari` so your students can clearly understand how **table relations** are defined in the **AOT (Application Object Tree)** and in **metadata (Table Designer)**.
+Perfect 👌 — let’s create a **custom example** in **D365 F&O–style (TTD format)** using your prefix `Ansari` so you can clearly understand how **table relations** are defined in the **AOT (Application Object Tree)** and in **metadata (Table Designer)**.
 
 ---
 
