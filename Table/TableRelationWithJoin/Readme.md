@@ -158,5 +158,5 @@ Order SO003 belongs to Rumman Ansari from Mumbai
 
 ---
 
-Would you like me to make a **diagram view (ER-style)** of this `AnsariCustomerTable` ↔ `AnsariSalesOrderTable` relationship for your class notes?
+ 
 
