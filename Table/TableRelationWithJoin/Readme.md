@@ -170,12 +170,12 @@ VALUES
 
 ### Verify Data ✅ View Parent Table:
 ```
-SELECT * FROM CustomerTable;
+SELECT * FROM AnsariCustomerTable;
 ```
 
  # 🧾  Insert Data into AnsariSalesOrderTable
 ```
-INSERT INTO SalesOrderTable (OrderId, CustomerId, OrderDate, TotalAmount)
+INSERT INTO AnsariSalesOrderTable (OrderId, CustomerId, OrderDate, TotalAmount)
 VALUES 
 ('SO001', 'C001', '2025-10-20', 5000),
 ('SO002', 'C002', '2025-10-21', 3000),
@@ -183,7 +183,7 @@ VALUES
 ```
 ###  ✅ View Child Table:
 ```
-SELECT * FROM SalesOrderTable;
+SELECT * FROM AnsariSalesOrderTable;
 ```
 
 
