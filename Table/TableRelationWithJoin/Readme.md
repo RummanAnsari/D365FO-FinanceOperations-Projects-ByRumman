@@ -222,3 +222,12 @@ VALUES
 ('SO015', 'C007', '2025-10-30', 3100);
 
 ```
+### Output for above data
+
+#### Table browser: AnsariSalesOrderTable
+
+<img width="1236" height="664" alt="image" src="https://github.com/user-attachments/assets/790bc9a3-620d-48c0-9e90-cb62cfe32dce" />
+
+#### Table browser: AnsariCustomerTable
+
+#### After Join Output 
