@@ -222,6 +222,38 @@ VALUES
 ('SO015', 'C007', '2025-10-30', 3100);
 
 ```
+
+uPDATE CODE:
+```
+internal final class AnsariUnderstandingJoin
+{
+    /// <summary>
+    /// Class entry point. The system will call this method when a designated menu 
+    /// is selected or when execution starts and this class is set as the startup class.
+    /// </summary>
+    /// <param name = "_args">The specified arguments.</param>
+    public static void main(Args _args)
+    {
+        AnsariCustomerTable cust;
+        AnsariSalesOrderTable sales;
+  
+        setPrefix("Output");
+        while select sales
+             join cust
+            where cust.CustomerId == sales.CustomerId
+        {
+            info(strFmt("Order %1 belongs to %2 from %3",
+                                                        sales.SalesOrderId,
+                                                        cust.CustomerName,
+                                                        cust.City));
+        }
+  
+    }
+  
+}
+
+
+```
 ### Output for above data
 
 #### Table browser: AnsariSalesOrderTable
@@ -229,5 +261,10 @@ VALUES
 <img width="1236" height="664" alt="image" src="https://github.com/user-attachments/assets/790bc9a3-620d-48c0-9e90-cb62cfe32dce" />
 
 #### Table browser: AnsariCustomerTable
+<img width="1236" height="664" alt="image" src="https://github.com/user-attachments/assets/c6cc6aa1-55cb-4ff7-a141-0004a6ae6dd8" />
+
 
 #### After Join Output 
+
+<img width="1236" height="664" alt="image" src="https://github.com/user-attachments/assets/a238308e-e233-4269-b770-962a32a271cc" />
+
