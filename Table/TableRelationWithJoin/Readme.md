@@ -257,12 +257,11 @@ internal final class AnsariUnderstandingJoin
 ### Output for above data
 
 #### Table browser: AnsariSalesOrderTable
+<img width="1932" height="1037" alt="image" src="https://github.com/user-attachments/assets/9e055211-bd07-4337-84c6-f93862842203" />
 
-<img width="1236" height="664" alt="image" src="https://github.com/user-attachments/assets/790bc9a3-620d-48c0-9e90-cb62cfe32dce" />
 
 #### Table browser: AnsariCustomerTable
-<img width="1236" height="664" alt="image" src="https://github.com/user-attachments/assets/c6bc96d1-a42f-4f70-bbad-08e0b38eeff6" />
-
+<img width="1932" height="1037" alt="image" src="https://github.com/user-attachments/assets/bd3103de-9fce-4061-81f0-030bf66ae000" />
 
 
 #### After Join Output 
