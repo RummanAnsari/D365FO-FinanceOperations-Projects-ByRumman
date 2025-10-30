@@ -187,4 +187,28 @@ SELECT * FROM AnsariSalesOrderTable;
 ```
 
 
+## You can Add more data
+### 🧾 Insert Data into AnsariCustomerTable
 
+```
+INSERT INTO AnsariCustomerTable (CustomerId, CustomerName, City)
+VALUES 
+('C004', 'Sara Sheikh', 'Hyderabad'),
+('C005', 'Ahmed Raza', 'Kolkata'),
+('C006', 'Mehnaz Fatima', 'Chennai'),
+('C007', 'Zaid Khan', 'Lucknow'),
+('C008', 'Nida Qureshi', 'Bangalore');
+
+```
+### 🧾 Insert Data into AnsariSalesOrderTable
+```
+INSERT INTO AnsariSalesOrderTable (SalesOrderId, CustomerId, OrderDate, TotalAmount)
+VALUES 
+('SO010', 'C004', '2025-10-25', 4800),
+('SO011', 'C005', '2025-10-26', 7200),
+('SO012', 'C006', '2025-10-27', 2500),
+('SO013', 'C004', '2025-10-28', 6000),
+('SO014', 'C008', '2025-10-29', 8200),
+('SO015', 'C007', '2025-10-30', 3100);
+
+```
