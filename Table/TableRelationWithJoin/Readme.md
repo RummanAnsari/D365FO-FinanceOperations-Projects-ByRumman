@@ -197,7 +197,7 @@ SELECT * FROM AnsariSalesOrderTable;
 <img width="1236" height="664" alt="image" src="https://github.com/user-attachments/assets/60aa46a8-d5d3-4dfe-bfde-9a3d8ca67558" />
 
 
-## You can Add more data
+# You can Add more data in the existing data and check it for one more sample data
 ### 🧾 Insert Data into AnsariCustomerTable
 
 ```
@@ -223,7 +223,8 @@ VALUES
 
 ```
 
-uPDATE CODE:
+## UPDATE CODE:
+Add this particular line to see data in a better manner "setPrefix("Output");".
 ```
 internal final class AnsariUnderstandingJoin
 {
@@ -257,14 +258,16 @@ internal final class AnsariUnderstandingJoin
 ### Output for above data
 
 #### Table browser: AnsariSalesOrderTable
+New data added in the AnsariSalesOrderTable
 <img width="1932" height="1037" alt="image" src="https://github.com/user-attachments/assets/9e055211-bd07-4337-84c6-f93862842203" />
 
 
 #### Table browser: AnsariCustomerTable
+New data added in the AnsariCustomerTable
 <img width="1932" height="1037" alt="image" src="https://github.com/user-attachments/assets/bd3103de-9fce-4061-81f0-030bf66ae000" />
 
 
 #### After Join Output 
-
+Now you can compare the data and see that it's having common data only from both table.
 <img width="1236" height="664" alt="image" src="https://github.com/user-attachments/assets/a238308e-e233-4269-b770-962a32a271cc" />
 
