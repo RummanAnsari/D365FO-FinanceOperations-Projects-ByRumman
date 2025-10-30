@@ -187,11 +187,11 @@ SELECT * FROM AnsariSalesOrderTable;
 ```
 ### Output for above data
 
-#### Table browser: AnsariCustomerTable
-<img width="1236" height="664" alt="image" src="https://github.com/user-attachments/assets/a6193d4a-3eed-4db0-9fd5-7b8c575974e2" />
-
 #### Table browser: AnsariSalesOrderTable
 <img width="1236" height="664" alt="image" src="https://github.com/user-attachments/assets/3719d856-c116-44ea-883e-2d33b0826f27" />
+
+#### Table browser: AnsariCustomerTable
+<img width="1236" height="664" alt="image" src="https://github.com/user-attachments/assets/a6193d4a-3eed-4db0-9fd5-7b8c575974e2" />
 
 #### After Join Output 
 <img width="1236" height="664" alt="image" src="https://github.com/user-attachments/assets/60aa46a8-d5d3-4dfe-bfde-9a3d8ca67558" />
