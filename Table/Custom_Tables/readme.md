@@ -17,14 +17,18 @@ Includes primary key, index, and basic fields that work well for Entities.
 
 ## 📌 Table Structure
 
-| Field Name      | Label            | Data Type      | Extended Data Type (EDT) | Mandatory | Description |
-|-----------------|------------------|----------------|---------------------------|-----------|-------------|
-| StudentId       | Student Id       | Int64          | RefRecId                  | Yes       | Primary Key |
-| StudentName     | Student Name     | String         | Name                      | Yes       | Student full name |
-| Age             | Age              | Int32          | Age                       | No        | Age of the student |
-| Email           | Email            | String         | Email                     | No        | Email address |
-| JoiningDate     | Joining Date     | Date           | TransDate                 | No        | Date of joining |
-| IsActive        | Active Status    | Enum           | No EDT (Use custom enum)  | Yes       | Whether student is active |
+### ANSARIStudentTable - Field Definition
+
+| Field Name         | Label           | Type        | EDT / Extended Data Type | Mandatory | Description                        |
+|--------------------|-----------------|-------------|---------------------------|-----------|------------------------------------|
+| **StudentId**      | Student ID      | String (20) | Name / String20          | Yes       | Primary key of student             |
+| **StudentName**    | Student Name    | String (60) | Name / String60          | Yes       | Full name of student               |
+| **Age**            | Age             | Integer     | Age                      | No        | Age of student                     |
+| **Email**          | Email Address   | String (80) | Email                    | No        | Student Email                      |
+| **Phone**          | Phone Number    | String (20) | Phone                    | No        | Contact number                     |
+| **IsActive**       | Active          | NoYes Enum  | NoYesId                  | Yes       | Whether student is active          |
+| **EnrollmentDate** | Enrollment Date | Date        | TransDate                | No        | Date when student joined           |
+| **CourseCode**     | Course Code     | String (20) | String20                 | No        | Course Code of the selected course |
 
 ---
 
