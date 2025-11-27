@@ -48,8 +48,7 @@ public final class ANSARIStudentTable extends Common
     StudentId       StudentId;
     StudentName     StudentName;
     Age             Age;
-    Email           Email;
-    JoiningDate     JoiningDate;
+    Email           Email;    
     IsActive        IsActive;
 }
 ```
