@@ -23,7 +23,7 @@ Includes primary key, index, and basic fields that work well for Entities.
 |--------------------|-----------------|-------------|---------------------------|-----------|------------------------------------|
 | **StudentId**      | Student ID      | String (20) | Name / String20          | Yes       | Primary key of student             |
 | **StudentName**    | Student Name    | String (60) | Name / String60          | Yes       | Full name of student               |
-| **Age**            | Age             | Integer     | Age                      | No        | Age of student                     |
+| **Age**            | Age             | Integer     | ---                      | No        | Age of student                     |
 | **Email**          | Email Address   | String (80) | Email                    | No        | Student Email                      |
 | **Phone**          | Phone Number    | String (20) | Phone                    | No        | Contact number                     |
 | **IsActive**       | Active          | NoYes Enum  | NoYesId                  | Yes       | Whether student is active          |
