@@ -1,55 +1,67 @@
-# ANSARIStudentTable --- Custom Table Structure (D365 F&O)
+# ANSARIStudentTable – Custom Table (D365 F&O)
 
-Below is the properly formatted **Markdown table** so it displays
-cleanly on GitHub, VS Code, Notepad++, Obsidian, and all Markdown
-viewers.
+A well‑formatted Markdown structure for creating your custom table and using it later to generate a Data Entity.
 
-------------------------------------------------------------------------
+---
 
-## 📘 Table Structure
+## 🧩 Table Name  
+**ANSARIStudentTable**
 
-  -----------------------------------------------------------------------------------------
-  Field Name           Label        Type      EDT / Extended   Mandatory   Description
-                                              Data Type                    
-  -------------------- ------------ --------- ---------------- ----------- ----------------
-  **StudentId**        Student ID   String    Name / String20  Yes         Primary key of
-                                    (20)                                   student
+---
 
-  **StudentName**      Student Name String    Name / String60  Yes         Full name of
-                                    (60)                                   student
+## 🗂 Table Description  
+A simple custom table created for learning purposes.  
+Includes primary key, index, and basic fields that work well for Entities.
 
-  **Age**              Age          Integer   ANSARIAge        No          Age of student
+---
 
-  **Email**            Email        String    Email            No          Student email
-                       Address      (80)                                   
+## 📌 Table Structure
 
-  **Phone**            Phone Number String    Phone            No          Contact number
-                                    (20)                                   
+| Field Name      | Label            | Data Type      | Extended Data Type (EDT) | Mandatory | Description |
+|-----------------|------------------|----------------|---------------------------|-----------|-------------|
+| StudentId       | Student Id       | Int64          | RefRecId                  | Yes       | Primary Key |
+| StudentName     | Student Name     | String         | Name                      | Yes       | Student full name |
+| Age             | Age              | Int32          | Age                       | No        | Age of the student |
+| Email           | Email            | String         | Email                     | No        | Email address |
+| JoiningDate     | Joining Date     | Date           | TransDate                 | No        | Date of joining |
+| IsActive        | Active Status    | Enum           | No EDT (Use custom enum)  | Yes       | Whether student is active |
 
-  **IsActive**         Active       NoYes     NoYesId          Yes         Whether student
-                                    Enum                                   is active
+---
 
-  **EnrollmentDate**   Enrollment   Date      TransDate        No          Date student
-                       Date                                                joined
+## 🔑 Indexes
 
-  **CourseCode**       Course Code  String    String20         No          Course code
-                                    (20)                                   
-  -----------------------------------------------------------------------------------------
+### **1. StudentIdx (Primary Index)**
+- Field: **StudentId**
+- AllowDuplicates: **No**
 
-------------------------------------------------------------------------
+---
 
-## 🔧 Technical Notes
+## 🧱 Example Table X++ Code (for reference)
 
--   **Primary Index:** `StudentId`
--   **Create RecId index:** Yes\
--   **Table Type:** Standard\
--   **Cache Lookup:** Found\
--   **CreatedDateTime / ModifiedDateTime:** Enabled
+```x++
+public final class ANSARIStudentTable extends Common
+{
+    StudentId       StudentId;
+    StudentName     StudentName;
+    Age             Age;
+    Email           Email;
+    JoiningDate     JoiningDate;
+    IsActive        IsActive;
+}
+```
 
-------------------------------------------------------------------------
+---
 
-## 🛠 Required Custom EDT (for Age field)
+## ✔ Ready to Use for Data Entity Creation
 
--   **EDT Name:** ANSARIAge\
--   **Base Type:** Integer\
--   **Label:** Age
+This table can now be used to create:
+- **Public / Standard Data Entity**
+- **Composite Entity**
+- **OData Integration**
+- **DMF Import/Export**
+
+---
+
+## 📁 File Information
+- **Format:** Markdown (.md)
+- **Purpose:** Documentation + teaching + reference for D365 FO custom table
