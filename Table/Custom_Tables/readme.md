@@ -68,3 +68,27 @@ This table can now be used to create:
 ## 📁 File Information
 - **Format:** Markdown (.md)
 - **Purpose:** Documentation + teaching + reference for D365 FO custom table
+
+
+## Insert Records
+
+```
+INSERT INTO Student (
+    StudentId,
+    StudentName,
+    Age,
+    Email,
+    Phone,
+    IsActive,
+    EnrollmentDate,
+    CourseCode
+)
+VALUES
+('STU001', 'Rohit Sharma', 21, 'rohit.sharma@example.com', '9876543210', 1, '2024-01-10', 'CSE101'),
+('STU002', 'Anjali Verma', 19, 'anjali.verma@example.com', '9876501234', 1, '2024-02-05', 'ECE102'),
+('STU003', 'Sameer Khan', 22, 'sameer.khan@example.com', '9876009876', 0, '2023-11-20', 'ME103'),
+('STU004', 'Priya Das', 20, 'priya.das@example.com', '9876123450', 1, '2024-03-15', 'CSE101'),
+('STU005', 'Vikram Yadav', 23, 'vikram.yadav@example.com', '9876234567', 1, '2024-01-28', 'IT104');
+
+
+```
