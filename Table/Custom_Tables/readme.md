@@ -73,7 +73,8 @@ This table can now be used to create:
 ## Insert Records
 
 ```
-INSERT INTO Student (
+
+INSERT INTO ANSARISTUDENTTABLE (
     StudentId,
     StudentName,
     Age,
@@ -89,6 +90,7 @@ VALUES
 ('STU003', 'Sameer Khan', 22, 'sameer.khan@example.com', '9876009876', 0, '2023-11-20', 'ME103'),
 ('STU004', 'Priya Das', 20, 'priya.das@example.com', '9876123450', 1, '2024-03-15', 'CSE101'),
 ('STU005', 'Vikram Yadav', 23, 'vikram.yadav@example.com', '9876234567', 1, '2024-01-28', 'IT104');
+
 
 
 ```
