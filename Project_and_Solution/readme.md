@@ -1,4 +1,4 @@
-Perfect — this is exactly the right way to learn. Let me walk you through it **exactly like a hands-on lab**: every click, every property value, every screen you'll see in Visual Studio. Follow it top-to-bottom and don't skip steps.
+Let me walk you through it **exactly like a hands-on lab**: every click, every property value, every screen you'll see in Visual Studio. Follow it top-to-bottom and don't skip steps.
 
 We'll build the 8 items in the order I gave you earlier. By the end you'll have a **working button on All Sales Orders** that opens your Controller class and prints a message.
 
